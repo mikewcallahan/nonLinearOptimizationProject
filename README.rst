@@ -32,11 +32,11 @@ The solution can take many forms, but for convenience consider attempting to sol
 
 Where the specific function is of the form:
 
-``f(r,theta,psi,p) = p[0]*r^2 + p[1]*sin(p[3]*theta+p[4])^2 + p[5]*sin(p[6]*psi+p[7])^2``
+``f(r,theta,phi,p) = p[0]*r^2 + p[1]*sin(p[3]*theta+p[4])^2 + p[5]*sin(p[6]*phi+p[7])^2``
 
-with ``r``, ``theta``, and ``psi`` being the Spherical coordinate representation of their ``x``, ``y``, and ``z`` Cartesian coordinate counterparts and ``p`` being the solution vector for coefficients/weights applied to the function described above.
+with ``r``, ``theta``, and ``phi`` being the Spherical coordinate representation of their ``x``, ``y``, and ``z`` Cartesian coordinate counterparts and ``p`` being the solution vector for coefficients/weights applied to the function described above.
 
-Therefore, it will be useful to create some kind of mapping functions to translate the ``x``, ``y``, and ``z`` Cartesian coordinate vectors into their ``r``, ``theta``, and ``psi`` spherical coordinate counterparts.
+Therefore, it will be useful to create some kind of mapping functions to translate the ``x``, ``y``, and ``z`` Cartesian coordinate vectors into their ``r``, ``theta``, and ``phi`` spherical coordinate counterparts.
 
 Constraints
 ---------------
